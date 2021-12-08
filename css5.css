@@ -1,0 +1,352 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.boxes{
+    position: relative;
+    left: 450px;
+}
+.box{
+    border: 2px solid grey;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    animation-name: box-ani;
+    animation-duration: 3s;
+    animation-timing-function: easy-in-out;
+    animation-iteration-count: infinite;
+
+}
+.box1{
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    animation-name: box-ani1;
+    animation-duration: 2s;
+    animation-timing-function: easy-in-out;
+    animation-iteration-count: infinite;
+}
+.box2{
+    border: 2px solid grey;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    animation-name: box-ani2;
+    animation-duration: 2s;
+    animation-timing-function: easy-in-out;
+    animation-iteration-count: infinite;
+}
+.box3{
+    border: 2px solid grey;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    animation-name: box-ani3;
+    animation-duration: 2s;
+    animation-timing-function: easy-in-out;
+    animation-iteration-count: infinite;
+}
+.box4{
+    border: 2px solid maroon;
+    background-color: maroon;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    animation-name: box-ani4;
+    animation-duration: 2s;
+    animation-timing-function: easy-in-out;
+    animation-iteration-count: infinite;
+}
+.box5{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    animation-name: box-ani5;
+    animation-duration: 2s;
+    /*animation-timing-function: easy-in-out;*/
+    animation-iteration-count: infinite;
+}
+@keyframes box-ani{
+   55%{
+        transform: skew(30deg,30deg) ;
+    }
+    45%{
+        transform: skew(-30deg,-30deg);
+    }
+
+}
+@keyframes box-ani1{
+    55%{
+        transform: skew(-30deg,-30deg) ;
+    }
+    45%{
+        transform: skew(30deg,30deg);
+    }
+  
+
+}
+@keyframes box-ani2{
+    100%{
+        transform: rotate(360deg);
+    }   
+
+}
+@keyframes box-ani3{
+    50%{
+        transform: scale(1,0) ;
+    }
+    50%{
+        
+    }
+
+}
+@keyframes box-ani4{
+    100%{
+        transform: scale(0,1) ;
+    }
+    50%{
+        
+    }
+
+}
+@keyframes box-ani5{
+    50%{
+        transform: rotate(-90deg) ;
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+   
+}
+.ink{
+    font-size: 30px;
+}
+.box6{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: width 2s,height 2s;
+    
+}
+.box7{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: width 2s,height 2s;
+    
+}
+.box8{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: width 5s,height 2s;
+}
+.box9{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: width 5s,height 2s;
+}
+.box10{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: width 5s,height 2s;
+}
+.box11{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: width 5s,height 2s;
+}
+.box12{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: width 5s,height 2s;
+}
+.sne{
+    position: relative;
+    left: 500px;
+}
+
+.box6:hover{
+    width: 500px;
+}
+.box7:hover{
+    width: 600px;
+    height: 400px;
+}
+.box8:hover{
+    width: 500px;
+}
+.box9:hover{
+    width: 500px;
+}
+.box10:hover{
+    width: 500px;
+}
+.box11:hover{
+    width: 500px;
+}
+.box12:hover{
+    width: 500px;
+}
+.h{
+    background-color: orange;
+    width: 110px;
+    position: relative;
+    left: 400px;
+
+    
+}
+.i{
+    background-color: white;
+    width: 260px;
+    position: relative;
+    bottom: 60px;
+    left: 530px;
+}
+.d{
+    background-color: green;
+    width: 110px;
+    position: relative;
+    bottom: 118px;
+    left: 810px;
+}
+.car-ani{
+   background-image: url(./sky.jpeg);
+   height:100vh;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   overflow-x: hidden;
+
+}
+.town{
+    height: 250px;
+    width: 500%;
+    background-image: url(./city.png);
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: town 20s linear infinite;
+    
+}
+.road{
+    height: 200px;
+    width: 500%;
+    display: block;
+    background-image: url(./road.jpeg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    animation: road 5s linear infinite ;
+}
+.car{
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.car img{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+@keyframes car {
+    100%{
+        transform: translatey(-1px);
+    }
+    50%{
+        transform: translatey(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+.circle{
+    left: 50%;
+    bottom: 178px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2
+}
+.circle img{
+    width: 72px;
+    height: 72px;
+    animation: circle 1s linear infinite;
+}
+.back{
+     left: -165px;
+     position: absolute;
+}
+.front{
+    left: 80px;
+    position: absolute;
+}
+
+@keyframes circle {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes road {
+    100%{
+        transform: translateX(-3400px);
+    }
+    
+}
+@keyframes town {
+    100%{
+        transform: translateX(-1400px);
+    }   
+}
+.sun{
+    position: relative;
+    left: 1100px;
+    bottom: 150px;
+}
+.flag{
+    position: relative;
+    left: 750px;
+    top: 90px;
+}
